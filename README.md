@@ -22,6 +22,13 @@ This dataset contains detailed information about real estate properties, includi
 
 • Create meaningful visualizations for business decisions
 
+## 🏠 **1. Property Information**
+
+- **PropertyID** – Unique identifier for each property  
+- **PropertyName** – Name or label of the property  
+- **PropertyType** – Condo, villa, house, apartment, duplex, etc.  
+- **ListingType** – Sale / Rent / Lease  
+
 ## 📍 **2. Location Details**
 
 - **Address**
@@ -31,6 +38,63 @@ This dataset contains detailed information about real estate properties, includi
 - **ZipCode**
 - **Latitude**
 - **Longitude**
+
+  ## 🧱 **3. Property Features**
+
+- **Bedrooms**
+- **Bathrooms**
+- **SquareFeet** – Built-up area  
+- **LotSize** – Total land area  
+- **YearBuilt**
+- **ConditionStatus**
+- **FurnishingStatus** – Furnished / Semi-furnished / Unfurnished  
+- **ParkingSpaces**
+- **HeatingType**
+- **CoolingType**
+- **PropertyDescription**
+
+  ## 💰 **4. Market & Pricing Data**
+
+- **MarketValue** – Estimated value  
+- **ListedPrice** – Price at listing  
+- **ListingDate**  
+- **SoldDate**
+- Great for time-series and price prediction models.
+
+  ## 🧑‍💼 **5. Administrative Identifiers**
+
+- **AgentID**
+- **OwnerID**
+- **NeighborhoodID**
+
+Useful for agent performance, ownership analysis, and neighborhood segmentation.
+
+## 🎯 **Use Cases**
+
+This dataset is ideal for:
+
+- **Real estate price trend analysis**
+- **Predictive models** (price prediction, property classification)
+- **Building dashboards** in Power BI / Tableau
+- **Market segmentation** by city, type, or neighborhood
+- **Agent and owner analytics**
+- **Geospatial visualizations** using latitude & longitude
+
+  ## 🧹 **Data Quality Notes**
+
+- Some fields have inconsistent capitalization (e.g., “TX”, “tx”, “Tx”).  
+- Some **PropertyName** values are missing.  
+- Dates may require formatting for time-series processing.  
+- Category fields should be normalized for modeling.
+
+  ## 🧹 **Data Quality Notes**
+
+- Some fields have inconsistent capitalization (e.g., “TX”, “tx”, “Tx”).  
+- Some **PropertyName** values are missing.  
+- Dates may require formatting for time-series processing.  
+- Category fields should be normalized for modeling.  
+
+
 
 
 <h1>🏠 1. Property Information</h1>
