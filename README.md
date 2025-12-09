@@ -69,22 +69,24 @@ This dataset is ideal for:
 - **Agent and owner analytics**
 - **Geospatial visualizations** using latitude & longitude
 
-  ## 🧹 **Data Quality Notes**
+## 🧹 **Data Quality Notes**
 
 - Some fields have inconsistent capitalization (e.g., “TX”, “tx”, “Tx”).  
 - Some **PropertyName** values are missing.  
 - Dates may require formatting for time-series processing.  
 - Category fields should be normalized for modeling.
 
-  ## 🧹 **Data Quality Notes**
-
-- Some fields have inconsistent capitalization (e.g., “TX”, “tx”, “Tx”).  
-- Some **PropertyName** values are missing.  
-- Dates may require formatting for time-series processing.  
-- Category fields should be normalized for modeling.  
+  
 
 
+## 📊 **Recommended Dashboard Visuals**
 
+- **Bar Chart:** Properties by city  
+- **Pie Chart:** Distribution of property types  
+- **Line Chart:** Listing trend by date  
+- **KPI Cards:** Average price, total listings, average square feet  
+- **Map Visual:** Property locations  
+- **Donut Chart:** Furnishing status breakdown
 
 
 
