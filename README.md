@@ -8,7 +8,7 @@
 
 <h1>📌 Project Overview</h1>
 
-This project explores the PhonePe dataset to understand digital payment trends across India. The analysis includes transaction types, loan amounts, insurance, and overall financial behavior through interactive dashboards and statistical insights.
+This dataset contains detailed information about real estate properties, including their physical characteristics, pricing, location, ownership, and listing details. It is suitable for building dashboards, running exploratory data analysis, predictive modeling, and real estate market insights.
 
 <h1>🎯 Objectives</h1>
 
@@ -22,24 +22,26 @@ This project explores the PhonePe dataset to understand digital payment trends a
 
 • Create meaningful visualizations for business decisions
 
-<h1>🎯 Use Cases</h1>
+## 📍 **2. Location Details**
 
-• This dataset can be used for:
+- **Address**
+- **City**
+- **State**
+- **Country**
+- **ZipCode**
+- **Latitude**
+- **Longitude**
 
-    👥 User behavior analysis
-    
-    📊 User growth trends
-    
-    🔁 Repeat transaction tracking
-    
-    🧭 Cohort analysis
-    
-    🧮 Age group segmentation
-    
-    🛠️ Power BI dashboard creation
-    
-    🔍 Data cleaning & feature engineering practice
 
+<h1>🏠 1. Property Information</h1>
+
+PropertyID – Unique identifier for each property
+
+PropertyName – Name or label of the property
+
+PropertyType – Condo, villa, house, apartment, duplex, etc.
+
+ListingType – Sale / Rent / Lease
 
 <h1>🧹 Data Cleaning Suggestions</h1>
 
