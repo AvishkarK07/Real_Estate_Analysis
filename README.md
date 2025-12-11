@@ -601,6 +601,88 @@ This chart shows how many agents (based on license count) fall into each experie
 
 ---
 
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/OWNER.png" />
+
+# 🏠 Owner Profile Analysis – Dashboard Explanation
+
+This dashboard presents a structured and searchable view of **property owner information**, allowing users to filter owners by **city** and review detailed contact and address data. It serves as a centralized directory for property ownership records.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/OWNER.png" />
+
+## 📌 1. Dashboard Purpose
+
+The main objectives of this dashboard are:
+
+- To display **complete owner profiles**  
+- To enable **city-based filtering** for faster navigation  
+- To provide quick access to owner **contact details and addresses**  
+- To support **property management and verification processes**
+
+---
+
+## 🎛 2. City Filter Buttons
+
+At the top right, the dashboard includes filters for selecting:
+
+- **Austin**  
+- **Dallas**  
+- **Houston**
+
+Selecting any city updates the table to show only the owners located in that specific city.
+
+In the screenshot, **Austin is selected**, so only Austin-based owners are displayed.
+
+---
+
+## 📋 3. Owner Details Table
+
+The main table shows detailed information for each owner, including:
+
+### **OwnerID**  
+A unique identifier for each property owner.
+
+### **OwnerName**  
+Name of the owner.  
+*(In this dataset, all owners are named "Sarah", indicating sample or placeholder data.)*
+
+### **ContactNumber**  
+Owner’s phone number for communication.
+
+### **Email**  
+Email address of the property owner.
+
+### **City**  
+The city where the owner resides.  
+Filtered dynamically based on selected city.
+
+### **Address**  
+Street address of the owner or their property.  
+Some entries may show **N/A** if address data is missing.
+
+---
+
+## 📝 4. Dashboard Insights
+
+- Displays **all owners from a selected city** in a clean and organized format.  
+- Helps teams quickly **contact owners** using email or phone details.  
+- Shows **complete property address information** for verification purposes.  
+- Acts as a **central owner database**, useful for property management teams.  
+- Ensures easy tracking and reference of owner details.
+
+---
+
+## 📌 Overall Summary
+
+This dashboard functions as a **comprehensive Owner Profile Directory**, consolidating:
+
+- Owner identity  
+- Contact details  
+- City and address information  
+
+It makes owner management more efficient and supports both operational and analytical tasks.
+
+---
 
 
 # 🏘️ Market Insights: Agents and Properties – Dashboard Explanation
