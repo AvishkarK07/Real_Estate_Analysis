@@ -190,7 +190,7 @@ Helps understand whether most market value comes from sales, rentals, or leases.
 
 This dashboard provides insights into property size, bedroom distribution, property types, and parking space trends. Below is a clear breakdown of each section.
 ---
-<img width="900" height="500" alt="weekly pattern" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/insurance.png" />
+<img width="900" height="500" alt="weekly pattern" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/property2.png" />
 
 ## 📌 **1. KPI Summary Cards**
 
