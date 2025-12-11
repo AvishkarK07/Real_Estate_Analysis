@@ -91,7 +91,9 @@ This dataset is ideal for:
 
 
 
-<H1>📈 All Transactions Overview</H1>
+# 🏡 **Property Performance Overview – Dashboard Explanation**
+
+This dashboard provides a complete analysis of property performance across price, market value, listing type, and city. Below is a section-wise explanation of each component.
 <img width="900" height="500" alt="item type" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/property1.png" />
 
 # 🏡 **Property Performance Overview – Dashboard Explanation**
