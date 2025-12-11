@@ -186,10 +186,88 @@ Helps understand whether most market value comes from sales, rentals, or leases.
 
 ---
 
+# 🏡 **Dashboard Explanation**
 
-
-<H1>💼 Insurance</H1>
+This dashboard provides insights into property size, bedroom distribution, property types, and parking space trends. Below is a clear breakdown of each section.
+---
 <img width="900" height="500" alt="weekly pattern" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/insurance.png" />
+
+## 📌 **1. KPI Summary Cards**
+
+### **Min of SquareFeet – 600**
+The smallest property in the dataset has 600 sq. ft.
+
+### **Max of SquareFeet – 5000**
+The largest property measures 5000 sq. ft.
+
+### **Min of Bedrooms – 1**
+Shows the smallest bedroom count in the dataset.
+
+### **Max of Bedrooms – 6**
+Shows the maximum number of bedrooms available across properties.
+
+These KPIs help understand the overall range of property sizes and bedroom capacities.
+
+---
+
+## 📊 **2. Count of Properties by Bedrooms (Bar Chart)**
+
+This chart displays how many properties exist for each bedroom category:
+
+- **1 Bedroom → 1722 properties**
+- **2 Bedrooms → 1642 properties**
+- **3 Bedrooms → 1606 properties**
+- **4 Bedrooms → 1692 properties**
+- **5 Bedrooms → 1639 properties**
+- **6 Bedrooms → 1699 properties**
+
+This visual shows which bedroom count is most common in the market.
+
+---
+
+## 🎛 **3. Filters (Slicers)**
+
+### **PropertyType Filter**
+Select property categories such as:
+- Apartment  
+- Condo  
+- Duplex  
+- House  
+- Villa  
+
+This allows users to analyze specific property segments.
+
+### **ListingDate Range Filter**
+A slider that filters properties based on selected listing dates.
+
+---
+
+## 📈 **4. Average of SquareFeet by PropertyType and ParkingSpaces**
+
+This clustered bar chart compares:
+
+- Different **property types** (Condo, House, Duplex, Apartment, Villa)
+- Different **parking spaces** (0, 1, 2, 3, 4)
+- Their corresponding **average SquareFeet**
+
+## Key Insights:
+- Properties with **more parking spaces generally have larger square footage**.
+- Houses, Duplexes, and Villas tend to be **larger** than Apartments and Condos.
+- Parking availability significantly influences property size.
+
+---
+
+## 📝 **Overall Insights**
+
+- Provides a detailed view of property size distribution.
+- Shows bedroom count popularity across the dataset.
+- Highlights size variation across property types and parking capacities.
+- Allows filtering by property type and listing date for deeper analysis.
+
+
+
+---
+
 
 <H1>💰 Loan</H1>
 <img width="900" height="500" alt="OUTLET" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/loan.png" />
