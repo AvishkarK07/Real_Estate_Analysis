@@ -352,13 +352,96 @@ Sale contributes the highest total value, while Rent and Lease contribute almost
 - Displays how Sale, Rent, and Lease contribute to total listed price.  
 - Time-based filtering allows detailed period analysis.
 
+
+This dashboard is ideal for real estate analysts, investors, and decision-makers who want to understand market value behavior and listing patterns.
+
 ---
 
 This dashboard is ideal for real estate analysts, investors, and decision-makers who want to understand market value behavior and listing patterns.
 
 
-<H1>💸 Money Transfer</H1>
-<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/Money%20Transfer.png" />
+# 🏢 Commercial Office Market Insights – Dashboard Explanation
+
+This dashboard provides a detailed overview of commercial office locations, their establishment trends, and city-wise distribution. It helps in understanding how many offices exist, where they are located, and when they were established.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/office.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Count of OfficeID – 50**
+Represents the total number of commercial offices in the dataset.
+
+### **Count of EstablishedYear – 32**
+Shows the number of unique establishment years across all offices.
+
+These KPIs provide a quick snapshot of office volume and time span.
+
+---
+
+## 🎛 2. City Filter (Slicer)
+
+Allows filtering data by:
+- Austin  
+- Dallas  
+- Houston  
+
+Selecting a city updates all visuals to show office data only for that specific location.
+
+---
+
+## 🎚 3. EstablishedYear Range Filter
+
+A slider that filters offices based on their establishment year.  
+Example: Viewing offices built between **1980 and 2020**.
+
+All visuals adjust dynamically based on the selected range.
+
+---
+
+## 📊 4. Count of EstablishedYear by City (Bar Chart)
+
+This chart displays the number of offices established in each city:
+
+- **Dallas – 22 offices**  
+- **Houston – 18 offices**  
+- **Austin – 10 offices**
+
+This highlights which cities have the highest development of commercial offices.
+
+---
+
+## 📋 5. Office Details Table
+
+A detailed table showing:
+
+- **OfficeID**  
+- **OfficeName**  
+- **ManagerName**  
+- **City**  
+- **Address**  
+- **EstablishedYear**
+
+### Insights from the table:
+- Many offices are managed by **Bob Head**.
+- Offices are spread across Austin, Dallas, and Houston.
+- Establishment years range widely, from **1982 to 2020**.
+
+This table is useful for looking up specific office information.
+
+---
+
+## 📝 Overall Insights
+
+- Shows total office count and establishment year distribution.
+- Highlights which cities have the most office developments.
+- Provides full office details for deeper analysis.
+- Helps analyze establishment trends across decades.
+- Allows filtering by city and year for focused insights.
+
+This dashboard is ideal for corporate planners, real estate analysts, and market researchers.
+
+---
 
 <H1>📱 Recharge_Bills</H1>
 <img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/Recharge_bill.png" />
