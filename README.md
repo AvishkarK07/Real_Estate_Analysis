@@ -443,9 +443,91 @@ This dashboard is ideal for corporate planners, real estate analysts, and market
 
 ---
 
-<H1>📱 Recharge_Bills</H1>
-<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/Recharge_bill.png" />
 
+# 🏘️ Neighborhood Market Analysis – Dashboard Explanation
+
+This dashboard provides insights into key neighborhood factors such as crime rate, school quality, income distribution, and walkability across three major cities: **Austin, Dallas, and Houston**. It helps compare neighborhood livability and market potential.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/neighbor.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Average of CrimeRate – 4.55**
+Represents the overall average crime rate across all neighborhoods.
+
+### **Average of SchoolRating – 5.42**
+Shows the average school quality rating among the cities.
+
+### **Min of AverageIncome – 30K**
+The lowest recorded household income in the dataset.
+
+### **Count of WalkabilityScore – 86**
+Indicates the total number of neighborhoods with available walkability data.
+
+These KPIs offer a quick view of neighborhood safety, education, income, and accessibility.
+
+---
+
+## 🎛 2. City Filter
+
+Allows users to analyze data specifically for:
+- Austin  
+- Dallas  
+- Houston  
+
+Selecting a city updates all visuals in the dashboard.
+
+---
+
+## 🥧 3. Average of CrimeRate by City (Pie Chart)
+
+Displays the city-wise distribution of average crime rates:
+
+- **Dallas – 37.16%**
+- **Houston – 34.39%**
+- **Austin – 28.45%**
+
+### Insight:
+Dallas has the **highest average crime rate**, while Austin has the **lowest**, indicating potentially safer neighborhoods.
+
+---
+
+## 📊 4. Average of SchoolRating by City (Bar Chart)
+
+Shows the education quality across cities:
+
+- **Dallas – highest**
+- **Austin – moderate**
+- **Houston – slightly lower**
+
+### Insight:
+Dallas neighborhoods rank best in school quality.
+
+---
+
+## 📉 5. Count of AverageIncome by City (Horizontal Bar Chart)
+
+Number of neighborhoods with income data:
+
+- **Austin – 75**
+- **Houston – 72**
+- **Dallas – 53**
+
+### Insight:
+Austin and Houston have more neighborhood entries than Dallas.
+
+---
+
+## 📝 Overall Insights
+
+- Austin appears to be the **safest city**, with the lowest crime rate.  
+- Dallas offers the **best school ratings** among the three.  
+- Houston shows balanced mid-range performance across factors.  
+- Income data is more extensive for Austin and Houston.  
+- The dashboard helps compare livability factors across major cities effectively.
+
+---
 
 
 <h1>📌 Conclusion</h1>
