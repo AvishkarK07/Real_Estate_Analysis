@@ -186,10 +186,10 @@ Helps understand whether most market value comes from sales, rentals, or leases.
 
 ---
 
-# 🏡 **Dashboard Explanation**
+# 🏡 Dashboard Explanation 
 
 This dashboard provides insights into property size, bedroom distribution, property types, and parking space trends. Below is a clear breakdown of each section.
----
+
 <img width="900" height="500" alt="weekly pattern" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/property2.png" />
 
 ## 📌 **1. KPI Summary Cards**
@@ -268,9 +268,94 @@ This clustered bar chart compares:
 
 ---
 
+# 🏡 Dashboard Explanation
 
-<H1>💰 Loan</H1>
-<img width="900" height="500" alt="OUTLET" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/loan.png" />
+This dashboard provides a time-based analysis of MarketValue along with insights into Listing Dates, Property Types, Furnishing Status, and Listing Types. Below is a detailed breakdown of each visual.
+
+---
+<img width="900" height="500" alt="OUTLET" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/property3.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Min of MarketValue – 80K**
+Represents the lowest recorded MarketValue in the dataset.
+
+### **Max of MarketValue – 900K**
+Represents the highest MarketValue among all properties.
+
+These KPIs indicate the overall price range of the properties.
+
+---
+
+## 🎛 2. Listing Date Filter (Slicer)
+
+A date range selector that filters all visuals by ListingDate  
+*(e.g., from 01-01-2023 to 27-04-2023)*.
+
+---
+
+## 📈 3. Average of MarketValue by Year, Quarter, Month, and Day (Line Chart)
+
+This time-series line chart shows:
+
+- Daily/Monthly fluctuations in MarketValue  
+- Overall price trends via the dotted trend line  
+- Market behavior patterns over the selected time period  
+
+It helps identify whether property values are rising, stable, or fluctuating.
+
+---
+
+## 📊 4. Count of ListingDate by PropertyType
+
+A bar chart displaying the number of listings for each property type:
+
+- Apartment – 2  
+- Condo – 2  
+- Duplex – 2  
+- House – 2  
+- Villa – 2  
+
+All property types have equal listing counts within the selected date range.
+
+---
+
+## 📉 5. Average of MarketValue by FurnishingStatus
+
+A horizontal bar chart comparing MarketValue across:
+
+- Furnished  
+- Unfurnished  
+- Semi-Furnished  
+
+This reveals whether furnishing level impacts property value.
+
+---
+
+## 🥧 6. Sum of ListedPrice by ListingType (Pie Chart)
+
+Shows the percentage share of total listed price:
+
+- **Sale – 50.44%**  
+- **Rent – 24.79%**  
+- **Lease – 24.77%**
+
+Sale contributes the highest total value, while Rent and Lease contribute almost equally.
+
+---
+
+ ## 📝 Overall Insights
+
+- Provides a complete view of MarketValue trends and property pricing.  
+- Shows how furnishing status influences property value.  
+- Highlights the distribution of listings across property types.  
+- Displays how Sale, Rent, and Lease contribute to total listed price.  
+- Time-based filtering allows detailed period analysis.
+
+---
+
+This dashboard is ideal for real estate analysts, investors, and decision-makers who want to understand market value behavior and listing patterns.
+
 
 <H1>💸 Money Transfer</H1>
 <img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Power-Bi-Phone_Pay/blob/main/images/Money%20Transfer.png" />
