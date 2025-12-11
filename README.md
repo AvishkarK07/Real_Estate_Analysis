@@ -94,15 +94,14 @@ This dataset is ideal for:
 # 🏡 **Property Performance Overview – Dashboard Explanation**
 
 This dashboard provides a complete analysis of property performance across price, market value, listing type, and city. Below is a section-wise explanation of each component.
+
 <img width="900" height="500" alt="item type" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/property1.png" />
 
-# 🏡 **Property Performance Overview – Dashboard Explanation**
 
-This dashboard provides a complete analysis of property performance across price, market value, listing type, and city. Below is a section-wise explanation of each component.
 
 ---
 
-## ## 📌 **1. KPI Summary Cards**
+## 📌 **1. KPI Summary Cards**
 
 ### **Average of MarketValue – 492.83K**
 Shows the average market value of all listed properties.
@@ -120,7 +119,7 @@ These KPIs give a quick financial and physical overview of the property market.
 
 ---
 
-## ## 🎛 **2. Filters (Slicers)**
+## 🎛 **2. Filters (Slicers)**
 
 ### **City Filter**
 - Austin  
@@ -139,7 +138,7 @@ Allows performance comparison based on property condition.
 
 ---
 
-## ## 📊 **3. Donut Chart: Sum of ListedPrice by PropertyType**
+## 📊 **3. Donut Chart: Sum of ListedPrice by PropertyType**
 
 Shows the percentage share of total listed price contributed by each property type:
 
@@ -153,7 +152,7 @@ Helps identify which property categories dominate market value.
 
 ---
 
-## ## 📈 **4. Bar Chart: Average of MarketValue by City**
+## 📈 **4. Bar Chart: Average of MarketValue by City**
 
 Compares average market value of properties across cities:
 
@@ -165,7 +164,7 @@ Useful for understanding city-wise real estate pricing trends.
 
 ---
 
-## ## 📉 **5. Bar Chart: Sum of ListedPrice by ListingType**
+## 📉 **5. Bar Chart: Sum of ListedPrice by ListingType**
 
 Shows total listed price distribution across listing types:
 
@@ -177,7 +176,7 @@ Helps understand whether most market value comes from sales, rentals, or leases.
 
 ---
 
-## ## 📝 **Overall Insights**
+## 📝 **Overall Insights**
 
 - Provides a full financial and performance summary of real estate data.  
 - Shows which city has higher property value.  
