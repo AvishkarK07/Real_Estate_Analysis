@@ -530,6 +530,107 @@ Austin and Houston have more neighborhood entries than Dallas.
 ---
 
 
+
+# 🏘️ Market Insights: Agents and Properties – Dashboard Explanation
+
+This dashboard provides a comprehensive overview of real estate **agents**, their **experience levels**, **geographic distribution**, and the **properties** they manage across key cities. It helps evaluate both workforce structure and market availability.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/Agent-property.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Min of YR Of Exp – 1**
+Indicates that the least experienced agent has **1 year** of experience.
+
+### **Average of MarketValue – 492.83K**
+Shows the average market value of properties handled by agents.
+
+These metrics give a quick snapshot of agent experience and property value trends.
+
+---
+
+## 🎛 2. Filters (Slicers)
+
+### **Region Filter**
+Filter data by:
+- East  
+- North  
+- South  
+- West  
+
+### **City Filter**
+Filter data for:
+- Austin  
+- Dallas  
+- Houston  
+
+These filters allow focused analysis based on location.
+
+---
+
+## 📊 3. Count of AgentID by Years of Experience (Horizontal Bar Chart)
+
+This chart displays the number of agents associated with each experience level (1–20 years).
+
+### Insight:
+Most experience categories contain **15–20 agents**, indicating a well-distributed mix of junior, mid-level, and senior agents.
+
+---
+
+## 🥧 4. Count of PropertyID by City (Donut Chart)
+
+Distribution of properties across cities:
+
+- **Dallas – 49.69% (~4.97K properties)**  
+- **Houston – 25.26% (~2.53K properties)**  
+- **Austin – 25.05% (~2.51K properties)**  
+
+### Insight:
+Dallas has the **largest property market**, holding nearly half of all properties.
+
+---
+
+## 🗺 5. Count of AgentID by City (Map Visual)
+
+A geographic view showing where agents are located across Texas cities:
+
+- Austin  
+- Dallas  
+- Houston  
+
+Larger circles represent higher agent counts.
+
+### Insight:
+Dallas appears to have the strongest agent concentration.
+
+---
+
+## 📈 6. Count of AgentID by City (Bar Chart)
+
+Shows the total number of agents per city:
+
+- **Austin – ~300 agents**  
+- **Dallas – ~300 agents**  
+- **Houston – ~300 agents**
+
+### Insight:
+All three cities have an **almost equal number of agents**, ensuring balanced market servicing.
+
+---
+
+## 📝 Overall Insights
+
+- Agent distribution across cities is nearly equal.  
+- Dallas dominates in property volume, followed by Houston and Austin.  
+- Experience levels are well-distributed among agents (1–20 years).  
+- Map visual provides a clear picture of geographic agent coverage.  
+- Average market value (~492K) indicates mid-to-high property pricing.
+
+---
+
+
+
 <h1>📌 Conclusion</h1>
 
 This analysis highlights the rapid adoption of digital payments in India, with strong growth across states, particularly urban regions. Insights support better product strategies and targeted financial services.
