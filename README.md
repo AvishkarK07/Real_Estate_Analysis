@@ -442,6 +442,76 @@ This table is useful for looking up specific office information.
 This dashboard is ideal for corporate planners, real estate analysts, and market researchers.
 
 ---
+# 🧑‍💼 Agent Performance Overview – Dashboard Explanation
+
+This dashboard provides a detailed analysis of real estate **agent performance**, focusing on experience levels, licensing trends, office distribution, and individual agent details. It helps management evaluate the strength and structure of the agent workforce.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/agent.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Min Years of Experience – 1**
+The least experienced agent has **1 year** of experience.
+
+### **Count of Years of Experience – 20**
+There are **20 unique levels of experience** across all agents (1–20 years).
+
+### **Count of OfficeID – 50**
+Represents the total number of office locations included in the dataset.
+
+These KPIs give a high-level view of agent experience diversity and office coverage.
+
+---
+
+## 🎛 2. Region Filter
+
+Allows filtering agent data by region:
+- East  
+- North  
+- South  
+- West  
+
+Selecting a region updates the entire dashboard accordingly.
+
+---
+
+## 📋 3. Agent Details Table
+
+This table displays detailed information for each agent:
+
+- **OfficeID**  
+- **AgentID**  
+- **Full Name**  
+- **Phone**  
+- **Email**  
+- **Years of Experience**  
+- **License Number**
+
+### Insight:
+This acts as a complete **agent directory**, enabling quick reference and analysis of agent profiles, contact details, and experience.
+
+---
+
+## 📈 4. Count of LicenseNumber by Years of Experience (Line Chart)
+
+This chart shows how many agents (based on license count) fall into each experience level.
+
+### Key Insights:
+- Some experience years have higher agent counts.  
+- Experience distribution is mixed, indicating a workforce balanced between junior and senior agents.  
+- Helps identify potential gaps in experience levels.
+
+---
+## 📝 Overall Insights
+
+- Agent experience ranges from **1 to 20 years**, indicating a diverse team.  
+- The company has **50 offices**, reflecting wide operational reach.  
+- License distribution across experience levels helps track agent availability and qualification.  
+- The detailed table enhances visibility into agent profiles and supports performance evaluation.  
+- Region filters allow targeted analysis for localized decision-making.
+
+---
 
 
 # 🏘️ Neighborhood Market Analysis – Dashboard Explanation
@@ -530,76 +600,6 @@ Austin and Houston have more neighborhood entries than Dallas.
 ---
 
 
-# 🧑‍💼 Agent Performance Overview – Dashboard Explanation
-
-This dashboard provides a detailed analysis of real estate **agent performance**, focusing on experience levels, licensing trends, office distribution, and individual agent details. It helps management evaluate the strength and structure of the agent workforce.
-
----
-<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/agent.png" />
-
-## 📌 1. KPI Summary Cards
-
-### **Min Years of Experience – 1**
-The least experienced agent has **1 year** of experience.
-
-### **Count of Years of Experience – 20**
-There are **20 unique levels of experience** across all agents (1–20 years).
-
-### **Count of OfficeID – 50**
-Represents the total number of office locations included in the dataset.
-
-These KPIs give a high-level view of agent experience diversity and office coverage.
-
----
-
-## 🎛 2. Region Filter
-
-Allows filtering agent data by region:
-- East  
-- North  
-- South  
-- West  
-
-Selecting a region updates the entire dashboard accordingly.
-
----
-
-## 📋 3. Agent Details Table
-
-This table displays detailed information for each agent:
-
-- **OfficeID**  
-- **AgentID**  
-- **Full Name**  
-- **Phone**  
-- **Email**  
-- **Years of Experience**  
-- **License Number**
-
-### Insight:
-This acts as a complete **agent directory**, enabling quick reference and analysis of agent profiles, contact details, and experience.
-
----
-
-## 📈 4. Count of LicenseNumber by Years of Experience (Line Chart)
-
-This chart shows how many agents (based on license count) fall into each experience level.
-
-### Key Insights:
-- Some experience years have higher agent counts.  
-- Experience distribution is mixed, indicating a workforce balanced between junior and senior agents.  
-- Helps identify potential gaps in experience levels.
-
----
-## 📝 Overall Insights
-
-- Agent experience ranges from **1 to 20 years**, indicating a diverse team.  
-- The company has **50 offices**, reflecting wide operational reach.  
-- License distribution across experience levels helps track agent availability and qualification.  
-- The detailed table enhances visibility into agent profiles and supports performance evaluation.  
-- Region filters allow targeted analysis for localized decision-making.
-
----
 
 
 # 🏠 Owner Profile Analysis – Dashboard Explanation
