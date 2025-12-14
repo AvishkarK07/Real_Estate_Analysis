@@ -601,7 +601,6 @@ This chart shows how many agents (based on license count) fall into each experie
 
 ---
 
-<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/OWNER.png" />
 
 # 🏠 Owner Profile Analysis – Dashboard Explanation
 
@@ -860,6 +859,116 @@ Better school ratings generally correlate with higher property prices, though so
 This dashboard is useful for real estate analysts, investors, urban planners, and homebuyers comparing neighborhood trends.
 
 ---
+
+
+# 🏠 Property Holdings by Owners – Dashboard Explanation
+
+This dashboard provides a comprehensive overview of **property ownership**, highlighting ownership scale, market value, property types, city-wise distribution, and listing activity over time.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/owner-property.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Total Properties – 10K**
+Represents the total number of properties in the dataset.
+
+### **Total Owners – 500**
+Shows the total number of unique property owners.
+
+### **Avg Properties per Owner – 20.0**
+On average, each owner holds 20 properties, indicating portfolio-style ownership.
+
+### **Average Market Value – 492.8K**
+Displays the average market value of properties across all owners.
+
+These KPIs provide a high-level snapshot of market size and ownership concentration.
+
+---
+
+## 🥧 2. Property Type Distribution
+
+Shows the percentage distribution of properties across types:
+
+- Villa  
+- Apartment  
+- Duplex  
+- House  
+- Condo  
+
+### Insight:
+Each property type contributes roughly **19–21%**, indicating a well-balanced property mix with no dominant category.
+
+---
+
+## 📈 3. Listings Over Day
+
+**Count of PropertyID by Day**
+
+- Displays how property listings change over time.
+- The downward trend indicates listings are decreasing as days progress.
+
+### Insight:
+This suggests active market movement due to properties being sold, rented, or delisted.
+
+---
+
+## 📊 4. Properties by City
+
+Shows the number of properties in each city:
+
+- **Dallas – Highest property count**
+- **Austin – Moderate**
+- **Houston – Moderate**
+
+### Insight:
+Dallas is the largest property market among the listed cities.
+
+---
+
+## 📉 5. Properties per Owner
+
+Displays the number of properties held by major owners:
+
+- Peter – Highest
+- Linda
+- Mark
+- Ravi
+- Sarah
+
+### Insight:
+Property ownership is concentrated among a few key owners but remains relatively balanced.
+
+---
+
+## 🧩 6. Owner Property Market Value
+
+A treemap showing the total market value of properties owned by each owner:
+
+- Peter – Largest market value share
+- Linda
+- Mark
+- Ravi
+- Sarah
+
+### Insight:
+Some owners control significantly higher-value property portfolios.
+
+---
+
+## 📝 Overall Insights
+
+- Large-scale ownership with **10,000 properties and 500 owners**.
+- Balanced distribution across all property types.
+- Dallas dominates in property volume.
+- Listings decline over time, indicating an active market.
+- Certain owners hold both more properties and higher total market value.
+- Ownership patterns suggest strong investment-oriented behavior.
+
+This dashboard is ideal for investors, portfolio managers, market analysts, and asset management teams.
+
+---
+
 
 <h1>📌 Conclusion</h1>
 
