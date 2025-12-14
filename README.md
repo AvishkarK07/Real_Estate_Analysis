@@ -784,6 +784,82 @@ All three cities have an **almost equal number of agents**, ensuring balanced ma
 ---
 
 
+# 🏘️ Neighborhood Property Trends – Dashboard Explanation
+
+This dashboard provides insights into **property distribution, pricing trends, and neighborhood-level performance**. It helps analyze how properties are spread across neighborhoods and how prices vary by property type and school ratings.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/neighbor-prop.png" />
+
+## 📌 1. KPI Summary Cards
+
+### **Total Neighborhoods – 200**
+Represents the total number of neighborhoods included in the analysis.
+
+### **Total Properties – 10.00K**
+Shows the total number of properties across all neighborhoods.
+
+These KPIs give a high-level view of market size and coverage.
+
+---
+
+## 📊 2. Neighborhood Property Segmentation
+
+**Count of NeighborhoodID by PropertyType**
+
+- Apartment – 200  
+- Condo – 200  
+- Duplex – 200  
+- House – 200  
+- Villa – 200  
+
+### Insight:
+Each property type is evenly distributed across neighborhoods, indicating a balanced mix of property categories.
+
+---
+
+## 📈 3. Neighborhood Price Trends
+
+**Average of ListedPrice by NeighborhoodID**
+
+- Prices fluctuate roughly between **0.4M and 0.6M**.  
+- Shows variation in property prices across neighborhoods.  
+- Helps identify high-value and low-value neighborhoods.
+
+---
+
+## 📉 4. Average of ListedPrice by SchoolRating
+
+Displays the relationship between school ratings (1–10) and property prices:
+
+- Highest average price (~502K) around **School Rating 7**  
+- Lowest average price (~473K) around **School Rating 5**
+
+### Insight:
+Better school ratings generally correlate with higher property prices, though some fluctuations exist.
+
+---
+
+## 📊 5. Neighborhood-wise Property Summary
+
+**Count of PropertyID by NeighborhoodID**
+
+- Most neighborhoods contain **40–70 properties**.  
+- Indicates relatively uniform property distribution across neighborhoods.
+
+---
+
+## 📝 Overall Insights
+
+- Covers a large market with **200 neighborhoods and 10,000 properties**.  
+- Property types are evenly distributed across neighborhoods.  
+- Property prices vary significantly by neighborhood.  
+- School quality has a noticeable impact on property pricing.  
+- Consistent property counts suggest planned neighborhood development.
+
+This dashboard is useful for real estate analysts, investors, urban planners, and homebuyers comparing neighborhood trends.
+
+---
 
 <h1>📌 Conclusion</h1>
 
