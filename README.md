@@ -681,9 +681,87 @@ Austin and Houston have more neighborhood entries than Dallas.
 
 ---
 
+# 🏢 Office-wise Agent Distribution – Dashboard Explanation
 
+This dashboard provides a detailed view of how **real estate agents are distributed across offices**, along with their **experience levels**, **regional presence**, and **property coverage**. It is designed to help analyze staffing balance and operational efficiency by office.
 
+---
 
+## 📌 1. KPI Summary Cards
+
+### **Total Offices – 50**
+Represents the total number of office locations in the dataset.
+
+### **Total Agents – 300**
+Shows the total number of agents working across all offices.
+
+These KPIs give a quick snapshot of organizational scale.
+
+---
+
+## 🎛 2. Filters (Slicers)
+
+### **Region Filter**
+Allows filtering offices by region:
+- East  
+- North  
+- South  
+- West  
+
+### **Years of Experience Filter**
+A slider that filters agents based on their experience range:
+- From **1 to 20 years**
+
+All visuals update dynamically based on selected filters.
+
+---
+
+## 📈 3. Sum of Years of Experience by OfficeID (Line Chart)
+
+- **X-axis:** OfficeID  
+- **Y-axis:** Sum of Years of Experience  
+
+### Insight:
+- Shows cumulative experience available in each office.
+- Offices with higher values have more experienced agent teams.
+- Helps identify offices with strong expertise versus those that may need support.
+
+---
+
+## 🗺 4. Count of PropertyID by City and AgentID (Map Visual)
+
+- Displays geographic distribution of agents and properties across:
+  - Austin  
+  - Dallas  
+  - Houston  
+
+### Insight:
+- Larger or denser markers indicate higher agent/property concentration.
+- Helps understand regional coverage and market presence.
+
+---
+
+## 📊 5. Office-wise Agent Count (Bar Chart)
+
+- **X-axis:** OfficeID  
+- **Y-axis:** Count of AgentID  
+
+### Insight:
+- Shows how many agents work in each office.
+- Highlights offices with high staffing levels and those that may be understaffed.
+- Supports workload balancing and resource allocation.
+
+---
+
+## 📝 Overall Insights
+
+- The organization operates **50 offices with 300 agents**.
+- Agent experience varies significantly by office.
+- Some offices have higher cumulative expertise.
+- Agent distribution across offices is uneven, indicating potential optimization opportunities.
+- Regional filters enable focused analysis by geography and experience.
+
+---
 
 
 
