@@ -686,6 +686,7 @@ Austin and Houston have more neighborhood entries than Dallas.
 This dashboard provides a detailed view of how **real estate agents are distributed across offices**, along with their **experience levels**, **regional presence**, and **property coverage**. It is designed to help analyze staffing balance and operational efficiency by office.
 
 ---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/office-agent.png" />
 
 ## 📌 1. KPI Summary Cards
 
