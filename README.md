@@ -783,6 +783,80 @@ All three cities have an **almost equal number of agents**, ensuring balanced ma
 ---
 
 
+# 🔗 Owner–Agent Relationship Analysis – Dashboard Explanation
+
+This dashboard analyzes the relationship between **property owners** and **real estate agents**, focusing on agent allocation, workload distribution, portfolio size, and root-cause performance insights. It helps identify ownership patterns, agent dependency, and operational balance.
+
+---
+<img width="900" height="500" alt="Screenshot 2025-09-14 2136" src="https://github.com/AvishkarK07/Real_Estate_Analysis/blob/main/image/owner-agent.png" />
+
+## 📊 1. Owner-wise Agent Allocation
+
+**Grouped Bar Chart**
+
+- **X-axis:** Owner Name (Peter, Linda, Mark, Ravi, Sarah)  
+- **Y-axis:** Count of PropertyID  
+- **Legend:** Individual Agents (Alex Doe, Alex Smith, John Doe, John Smith, Mary Doe, Mary Smith, Sara Doe, Sara Smith)
+
+### Insights:
+- Each owner’s portfolio is distributed across multiple agents.
+- Certain agents (e.g., John Doe, John Smith) handle a higher number of properties.
+- Highlights agent dependency and workload concentration per owner.
+
+---
+
+## 🌳 2. Root Cause Performance View
+
+**Decomposition Tree**
+
+- **Total Properties:** 10,000  
+- Breakdown by:
+  - **Owner Name**
+  - **Agent Full Name**
+
+### Example:
+- **Peter – 2,348 properties**
+  - John Doe – 596  
+  - John Smith – 417  
+  - Sara Smith – 245  
+  - Alex Doe – 230  
+  - Mary Doe – 228  
+  - Mary Smith – 220  
+
+### Insights:
+- Identifies which agents contribute most to each owner’s portfolio.
+- Useful for root-cause analysis of performance variations.
+- Supports accountability and performance reviews.
+
+---
+
+## 📉 3. Workload vs Portfolio Size
+
+**Bubble / Scatter Chart**
+
+- **X-axis:** Owner Name  
+- **Y-axis:** Count of PropertyID  
+- **Bubble Size:** Relative workload or impact
+
+### Insights:
+- Peter has the largest portfolio.
+- Linda and Mark manage mid-sized portfolios.
+- Ravi and Sarah have slightly smaller portfolios.
+- Helps compare ownership size against operational workload.
+
+---
+
+## 📝 Overall Insights
+
+- Clear visibility into how agents are allocated across owners.
+- Identification of high-load and high-performing agents.
+- Understanding of portfolio size differences between owners.
+- Root-cause analysis helps detect workload imbalance.
+- Supports better agent assignment and resource planning.
+
+---
+
+
 # 🏘️ Neighborhood Property Trends – Dashboard Explanation
 
 This dashboard provides insights into **property distribution, pricing trends, and neighborhood-level performance**. It helps analyze how properties are spread across neighborhoods and how prices vary by property type and school ratings.
